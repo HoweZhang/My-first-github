@@ -2,7 +2,7 @@
 林小志的css
 ---
 清除默认的margin的属性值</br>
-body,
+`body,
 blockquote,
 dd,
 dl,
@@ -15,40 +15,40 @@ h2,
 h3,
 h4,
 h5,
-h6 {margin:0;}
+h6 {margin:0;}`
 
 统一设置列表的margin和padding，以及列表表形式</br>
-menu,
+`menu,
 ul,
-ol {list-style:none;margin:0;padding:0;}
+ol {list-style:none;margin:0;padding:0;}`
 
 全局定义字体以及页面背景</br>
-body {line-height:1.5;background-color:#FFFFFF;}
-body,h1,h2,h3,h4,h5,h6,input,button,select,textarea {font-size: 18px;} /* 设置字体大小 */
-input[type="button"],
+`body {line-height:1.5;background-color:#FFFFFF;}`</br>
+`body,h1,h2,h3,h4,h5,h6,input,button,select,textarea {font-size: 18px;}`    设置字体大小
+`input[type="button"],
 input[type="submit"],
-input[type="reset"] {font-size: 16px;} /* 设置字体大小，这部分跟前面写在一起，IE6中会无效 */
+input[type="reset"] {font-size: 16px;}`     设置字体大小，这部分跟前面写在一起，IE6中会无效
 
-字体控制</br>
-body,
+    字体控制
+`body,
 input,
 button,
 select,
 optgroup,
 option,
 textarea,
-pre {font-family: Arial, Roboto, 'Droid Sans', 'Hiragino Sans GB', 'Microsoft YaHei', 'Simsun', STXihei, 'sans-serif';}
+pre {font-family: Arial, Roboto, 'Droid Sans', 'Hiragino Sans GB', 'Microsoft YaHei', 'Simsun', STXihei, 'sans-serif';}`
 
-设置iframe的背景色以及去除个别浏览器iframe底部的几个像素</br>
-iframe {background-color:#FFFFFF;vertical-align:middle;}
+    设置iframe的背景色以及去除个别浏览器iframe底部的几个像素
+    `iframe {background-color:#FFFFFF;vertical-align:middle;}`
 
-设置文本链接样式</br>
-a {color:#000000;}
-a:hover {text-decoration:underline;color:#FF0000;}
+    设置文本链接样式
+    `a {color:#000000;}`
+    `a:hover {text-decoration:underline;color:#FF0000;}`
 
-去除个别浏览器图片底部的几个像素，以及设置图片形式链接无边框</br>
-img {vertical-align:middle;}
-a img {border:0 none;}
+    去除个别浏览器图片底部的几个像素，以及设置图片形式链接无边框
+    `img {vertical-align:middle;}`
+    `a img {border:0 none;}`
 
 设置表单元素的样式</br>
 fieldset {margin:0;padding:0;}
