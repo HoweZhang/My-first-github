@@ -173,8 +173,11 @@ table {border-spacing:0;}
 合并表格的间隙，去掉单元格之间的间距，如有需要合并单元格为细线表格，可增加
 ```
 border-collapse:collapse;
+```
+
+去除单元格以及caption表头的padding值
+```
 td, th, caption {padding:0;}
 ```
-去除单元格以及caption表头的padding值
 
 转载地址：[http://linxz.github.io/tianyizone/css_reset.html](http://linxz.github.io/tianyizone/css_reset.html)
