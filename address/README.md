@@ -7,6 +7,8 @@
 
 js开发群资源整合：https://www.kancloud.cn/jikeytang/qq/81135
 
+es6教程(阮一峰)：http://es6.ruanyifeng.com/#docs/let
+
 图片压缩地址：https://tinypng.com/
 
 莫公司内部开发规范：http://res.nie.netease.com/comm/doc/professional/javascript代码规范.html
